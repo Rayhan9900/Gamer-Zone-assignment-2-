@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@500;600;700;800&display=swap');
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+    gap: 20px;
+}
+
+nav img {
+    height: 20px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 74px 240px;
+    background: #FFF;
+}
+
+.banner-section {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.banner-content h4 {
+    font-size: 48px;
+}
+
+/* .banner-content h2 {
+    background-color: #F948B2 0%, #8758F1;
+    font-size: 95px;
+
+} */
+
+.banner img {
+    width: 500px;
+}
+
+.banner-content {
+    /* background-image: url('../B8A2-Gamer-Zone/images/Group\ 14.png'); */
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background-color: #ff42A5;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.btn-primary-2 {
+    color: #FFFFFF;
+    background-color: #4EC5F7;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.title-section {
+    text-align: center;
+}
+
+/* .color-item {
+    background-color: #F948B2, #8758F1;
+} */
+
+.card-container {
+    display: flex;
+    gap: 24px;
+}
+
+.container-span {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 64px 240px 240px;
+}
+
+.features-img {
+    width: 500px;
+    margin-top: 68px;
+}
+
+.title-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 340px;
+    margin-right: 340px;
+}

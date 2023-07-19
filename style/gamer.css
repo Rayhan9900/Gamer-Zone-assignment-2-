@@ -11,7 +11,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-left: 240px;
-    margin-right: 240px;
+    margin-right: 64px;
 }
 
 .nav-title-color {
@@ -60,7 +60,8 @@ nav img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 74px 240px;
+    padding-left: 240px;
+    padding-right: 240px;
     background: #FFF;
     box-shadow: inset;
     background-image: url('../B8A2-Gamer-Zone/images/Group\ 14.png');
@@ -81,14 +82,12 @@ nav img {
 }
 
 
-
-
-
 .banner img {
     width: 500px;
-}
 
-.banner-content {}
+    padding-left: 470px;
+
+}
 
 .btn-primary {
     color: #FFFFFF;
@@ -109,6 +108,10 @@ nav img {
 
     gap: 24px;
     margin-top: 64px;
+}
+
+.color-item {
+    color: #8758F1;
 }
 
 
@@ -258,4 +261,66 @@ nav img {
 .gamer-color {
     color: white;
     font-size: 36px;
+}
+
+
+@media screen and (max-width:576px) {
+
+    nav,
+    .card-container {
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 164px;
+
+    }
+
+    .banner-content {
+        padding-left: 464px;
+        text-align: center;
+    }
+
+    .title-section {
+
+        margin-left: 200px;
+    }
+
+
+    .container-span {
+        flex-direction: column;
+    }
+
+    .features-img {
+
+        padding-left: 64px;
+    }
+
+
+    .gamer-zone {
+        width: 400px;
+        height: 600px;
+    }
+
+    .title-images {
+        padding-left: 120px;
+        margin-left: 0px;
+        margin-right: 0px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .banner {
+        flex-direction: column-reverse;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        background-image: none;
+
+    }
+
+    .footer {
+        margin-left: 64px;
+
+
+    }
 }
